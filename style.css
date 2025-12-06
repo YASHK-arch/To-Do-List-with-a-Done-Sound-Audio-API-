@@ -1,0 +1,92 @@
+ 
+h2{
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color:black;
+  padding: 5px;
+  background-image: url('gif1.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20%;
+}
+ 
+
+
+ body {
+    font-family: Arial, sans-serif;
+    background: #b52222;
+    padding: 30px;
+    background-image:url('2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #todo-container {
+    width: 350px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 10px 20px 40px rgb(76, 50, 50);
+    background-image: url('https://i.pinimg.com/originals/bd/56/5d/bd565dcc0a556add0b0a0ed6b26d686e.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 12px;
+  }
+
+  .controls {
+    display:flex;
+    gap:8px;
+    align-items:center;
+  }
+
+  #task-input {
+    flex:1;
+    padding:8px;
+    border-radius:8px;
+    border:1px solid #aaa;
+  }
+
+  #add-btn {
+    padding:8px 12px;
+    border:none;
+    background:#0a84ff;
+    color:#fff;
+    border-radius:8px;
+    cursor:pointer;
+  }
+
+  ul {
+    list-style:none;
+    padding:0;
+    margin-top:18px;
+  }
+
+  li {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#fafafa;
+    padding:10px;
+    margin-bottom:10px;
+    border-radius:8px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.05);
+    cursor:pointer;
+  }
+
+  li.done {
+    text-decoration:line-through;
+    background:#d3ffd3;
+  }
+
+  .delete-btn {
+    color:red;
+    font-weight:bold;
+    cursor:pointer;
+    margin-left:8px;
+  }
