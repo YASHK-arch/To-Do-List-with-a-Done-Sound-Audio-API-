@@ -17,8 +17,6 @@ Instead of a plain checklist, the app uses:
 - A clean, responsive UI  
 - DOM manipulation and event handling  
 
-This makes the project perfect for learning **core frontend development skills**.
-
 ---
 
 ## ✨ Features
